@@ -100,7 +100,7 @@ Fully Connected Layer(input_size=128, output_size=1)
 
 Training of the agent was performed on the [`train.ipynb`](train.ipynb) notebook.
 
-# Results
+## Results
 
 The agent was able to solve the environment in 141 episodes with an average Score: 30.08. Below is the learning curve.
 
@@ -108,7 +108,7 @@ The agent was able to solve the environment in 141 episodes with an average Scor
 
 Here is a [video](https://www.youtube.com/watch?v=VqVwMerXwOk) of the trained agent acting on the environment.
 
-# Future work
+## Future work
 
 There is certainly room for improvement. To begin with, the experiences in the replay buffer are currently being sampled with equal probability. There could be better results by making use of priorotized experience replay with the existing learning algorithm.
 
